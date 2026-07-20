@@ -1,0 +1,18 @@
+suites:
+  core:
+    public_name: EndoCA-Core
+    manifest: data/manifests/endoca_core.jsonl
+    complex_samples: 12000
+    atomic_questions: 15736
+    total_queries: 27736
+  diagnostic:
+    public_name: EndoCA-Diagnostic
+    manifest: data/manifests/endoca_diagnostic.jsonl
+    complex_samples: 6000
+    atomic_questions: 9300
+    total_queries: 15300
+
+evaluation:
+  max_new_tokens: 80
+  deterministic: true
+  prompt_style: answer_only

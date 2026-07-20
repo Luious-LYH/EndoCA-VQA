@@ -1,0 +1,4 @@
+method,complex_acc_percent,joint_acc_percent,complex_atomic_inconsistency_percent,coverage_percent,selective_complex_acc_percent,revision_columns_source,selective_columns_source
+Direct,63.3,45.5,27.4,100.0,63.3,Direct complex answer,Direct complex answer
+w/o atomic,60.6,43.0,28.2,84.5,66.8,Self-Revise without atomic premises,Self-Selective without atomic premises
+ASR,62.2,50.9,17.1,75.9,71.0,ASR-Revise,ASR-Selective

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If EndoCA or ASR helps your research, please cite our paper."
+title: "EndoCA: Complex-Atomic Answer Consistency in Endoscopic VQA"
+type: software
+version: 0.1.0
+repository-code: "https://github.com/Luious-LYH/EndoCA-VQA"
+authors:
+  - family-names: Liu
+    given-names: Yuhao
+  - family-names: Zhao
+    given-names: Cheng
+  - family-names: Yue
+    given-names: Guanghui
+preferred-citation:
+  type: article
+  title: "Measuring and Improving Complex-Atomic Answer Consistency in Endoscopic VQA"
+  authors:
+    - family-names: Liu
+      given-names: Yuhao
+    - family-names: Zhao
+      given-names: Cheng
+    - family-names: Yue
+      given-names: Guanghui
+  year: 2026
+  notes: "arXiv identifier pending"

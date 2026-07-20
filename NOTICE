@@ -1,0 +1,16 @@
+EndoCA
+Copyright 2026 Yuhao Liu, Cheng Zhao, and Guanghui Yue
+
+The source code in this repository is licensed under Apache-2.0.
+
+EndoCA is derived from the paired question-answer structure of Kvasir-VQA and
+Kvasir-VQA-x1. Kvasir-VQA-x1 is distributed by its authors under CC BY-NC 4.0.
+The benchmark manifests and any redistributed upstream images or annotations
+remain subject to the applicable upstream attribution and non-commercial terms.
+
+Kvasir-VQA-x1:
+https://github.com/simula/Kvasir-VQA-x1
+https://huggingface.co/datasets/SimulaMet/Kvasir-VQA-x1
+
+Model checkpoints, API outputs, and third-party libraries remain subject to
+their own licenses and provider terms. They are not relicensed by EndoCA.
