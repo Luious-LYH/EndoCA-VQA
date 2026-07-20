@@ -7,7 +7,7 @@
 **Yuhao Liu, Cheng Zhao, Guanghui Yue**  
 School of Biomedical Engineering, Shenzhen University, Shenzhen, China
 
-[Paper (arXiv identifier pending)](#citation) | [Chinese README](docs/README_zh.md) | [Data Guide](docs/data.md)
+[Paper (arXiv identifier pending)](#citation) | [中文 README](docs/README_zh.md) | [Data Guide](docs/data.md)
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-315f73.svg)](pyproject.toml)
 [![Code License](https://img.shields.io/badge/Code-Apache--2.0-315f73.svg)](LICENSE)
