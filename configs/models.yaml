@@ -1,0 +1,67 @@
+models:
+  internvl25-8b:
+    display_name: InternVL2.5-8B
+    group: general_open
+    model_id: OpenGVLab/InternVL2_5-8B
+    adapter: internvl
+    trust_remote_code: true
+  qwen25-vl-7b:
+    display_name: Qwen2.5-VL-7B
+    group: general_open
+    model_id: Qwen/Qwen2.5-VL-7B-Instruct
+    adapter: qwen25
+    trust_remote_code: true
+  qwen3-vl-8b:
+    display_name: Qwen3-VL-8B
+    group: general_open
+    model_id: Qwen/Qwen3-VL-8B-Instruct
+    adapter: qwen3_vl
+    trust_remote_code: true
+  medgemma-4b:
+    display_name: MedGemma-4B
+    group: medical_open
+    model_id: google/medgemma-4b-it
+    adapter: gemma
+    trust_remote_code: true
+  lingshu-7b:
+    display_name: Lingshu-7B
+    group: medical_open
+    model_id: lingshu-medical-mllm/Lingshu-7B
+    adapter: generic
+    trust_remote_code: true
+  llava-med:
+    display_name: LLaVA-Med
+    group: medical_open
+    model_id: microsoft/llava-med-v1.5-mistral-7b
+    adapter: llava_med
+    llava_model_path: ""
+  medgemma-ft:
+    display_name: MedGemma-FT
+    group: endoscopy_adapted
+    model_id: SimulaMet/MedGemma-KvasirVQA-x1-ft
+    adapter: simula_medgemma
+    trust_remote_code: true
+  qwen25-vl-ft:
+    display_name: Qwen2.5-VL-FT
+    group: endoscopy_adapted
+    model_id: SimulaMet/Qwen2.5-VL-KvasirVQA-x1-ft
+    adapter: simula_qwen25
+    adapter_path: ""
+    trust_remote_code: true
+
+api_models:
+  gpt-5.5:
+    display_name: GPT-5.5
+    provider: openai_compatible
+    model_id: gpt-5.5
+    reasoning_effort: xhigh
+  grok-4.20:
+    display_name: Grok-4.20
+    provider: openai_compatible
+    model_id: grok-4.20
+    reasoning_effort: xhigh
+  claude-opus-4.7:
+    display_name: Claude Opus 4.7
+    provider: anthropic_compatible
+    model_id: claude-opus-4-7
+    reasoning_effort: max

@@ -1,0 +1,6 @@
+dataset,model,direct_complex_accuracy,revise_complex_accuracy,joint_accuracy_delta,inconsistency_delta,selective_coverage,selective_complex_accuracy
+EndoCA-Core,Qwen3-VL-8B,55.1,54.7,5.3,-10.3,73.0,68.3
+EndoCA-Core,MedGemma-FT,74.5,76.0,8.1,-9.2,95.7,76.8
+EndoCA-Core,Qwen2.5-VL-FT,72.1,69.6,3.1,-6.6,76.1,74.9
+EndoCA-Core,Lingshu-7B,51.6,48.4,5.2,-15.5,58.9,63.9
+EndoCA-Core,Average,63.3,62.2,5.4,-10.4,75.9,71.0

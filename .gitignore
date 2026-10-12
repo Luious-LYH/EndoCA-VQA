@@ -1,0 +1,57 @@
+# Local planning records
+/task_plan.md
+/findings.md
+/progress.md
+
+# Maintainer-only release audit and construction utilities
+/provenance/
+/scripts/
+/src/endoca/asr/no_atomic*.py
+
+# Secrets and local environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+.python-version
+
+# Python caches and build outputs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Model caches and weights
+.cache/
+*.bin
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Full local-only data and experiment evidence
+/data/upstream/
+/data/intermediate/
+/data/construction_exclusions/
+/artifacts/full_results/
+/artifacts/local_archive/
+
+# Keep compressed public manifests; ignore extracted copies
+/data/manifests/*.jsonl
+
+# Runtime products
+/outputs/
+/logs/
+*.log
+*.status
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

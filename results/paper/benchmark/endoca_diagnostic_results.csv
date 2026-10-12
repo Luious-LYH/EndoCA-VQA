@@ -1,0 +1,12 @@
+group,model,parameters,qa_count,complex_accuracy,atomic_accuracy,joint_accuracy,complex_atomic_inconsistency
+general_open,InternVL2.5-8B,8B,15300,46.1,43.6,26.7,42.0
+general_open,Qwen2.5-VL-7B,7B,15300,48.1,55.0,33.0,31.4
+general_open,Qwen3-VL-8B,8B,15300,50.3,66.0,42.1,16.3
+medical_open,MedGemma-4B,4B,15300,32.1,28.4,14.8,54.0
+medical_open,Lingshu-7B,7B,15300,46.3,54.1,32.9,28.9
+medical_open,LLaVA-Med,7B,15300,22.6,15.3,3.8,83.1
+endoscopy_adapted,MedGemma-FT,4B,15300,70.4,71.2,50.7,28.0
+endoscopy_adapted,Qwen2.5-VL-FT,7B,15300,70.5,58.0,36.8,47.8
+closed_source,GPT-5.5,--,15300,55.2,61.0,41.7,24.4
+closed_source,Grok-4.20,--,15300,30.1,35.8,16.7,44.6
+closed_source,Claude Opus 4.7,--,15300,54.2,56.6,36.0,33.5

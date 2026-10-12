@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If EndoCA or ASR helps your research, please cite our paper."
+title: "EndoCA: Complex-Atomic Answer Consistency in Endoscopic VQA"
+type: software
+version: 0.1.0
+authors:
+  - name: "Anonymous Authors"
+preferred-citation:
+  type: article
+  title: "Measuring and Improving Complex-Atomic Answer Consistency in Endoscopic VQA"
+  authors:
+    - name: "Anonymous Authors"
+  year: 2026
+  notes: "arXiv identifier pending"

@@ -1,0 +1,8 @@
+method: ASR
+variants: [ASR-Revise, ASR-Selective]
+max_new_tokens: 120
+paper_models:
+  - qwen3-vl-8b
+  - lingshu-7b
+  - medgemma-ft
+  - qwen25-vl-ft
