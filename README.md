@@ -134,17 +134,4 @@ Compact paper-facing tables are under [`results/paper/`](results/paper/README.md
 
 The code is released under [Apache-2.0](LICENSE). EndoCA manifests are derived from Kvasir-VQA and Kvasir-VQA-x1 and remain subject to the upstream CC BY-NC 4.0 terms described in [NOTICE](NOTICE). This benchmark is intended for research evaluation and is not a clinical decision-making system.
 
-## Citation
-
-The arXiv identifier is still pending. Please replace the placeholder once the public record is available.
-
-```bibtex
-@article{liu2026endoca,
-  title   = {Measuring and Improving Complex-Atomic Answer Consistency in Endoscopic VQA},
-  author  = {Liu, Yuhao and Zhao, Cheng and Yue, Guanghui},
-  journal = {arXiv preprint arXiv:XXXX.XXXXX},
-  year    = {2026}
-}
-```
-
 If EndoCA or ASR is useful in your work, please consider citing the paper.
